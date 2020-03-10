@@ -1,0 +1,40 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Roboto;
+	background-color: #f5f5f5;
+}
+
+#app {
+	width: 50vw;
+	margin: 5rem;
+}
+
+input {
+	padding: 1rem;
+	border-radius: 10px;
+	box-shadow: none;
+	font-size: 16px; 
+	border-color: black;
+}
+
+li {
+	margin: 1rem;
+	height: 2rem;
+	line-height: 2rem;
+}
+
+.fa-li + * {
+	margin-left: 1rem;
+}
+
+.fa-li + input {
+	margin-top: -0.5rem;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 2rem;
+}
